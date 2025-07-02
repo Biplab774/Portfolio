@@ -36,7 +36,7 @@
     
 
   (function () {
-    emailjs.init("JgvN77xG8oXrk-5SS");
+    emailjs.init("mai3fYRVvTlNWXfDS");
   })();
 
   document.getElementById("contactForm").addEventListener("submit", function (e) {
@@ -63,7 +63,7 @@
     }
 
     // Send the form via EmailJS
-    emailjs.sendForm("service_t60d1l8", "template_rermlzc", this)
+    emailjs.sendForm("service_ncjo967", "template_hc0c3gj", this)
       .then(function () {
         formMessage.style.color = 'green';
         formMessage.textContent = 'âœ… Message sent successfully!';
