@@ -63,7 +63,7 @@
     }
 
     // Send the form via EmailJS
-    emailjs.sendForm("service_ncjo967", "template_hc0c3gj", this)
+    emailjs.sendForm("service_1e0pqi5", "template_hc0c3gj", this)
       .then(function () {
         formMessage.style.color = 'green';
         formMessage.textContent = 'âœ… Message sent successfully!';
